@@ -1,0 +1,96 @@
+[20Nov2024 22:18:09.624] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[20Nov2024 22:18:09.627] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.4 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
+[20Nov2024 22:18:10.018] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[20Nov2024 22:18:10.080] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/msp2.5/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[20Nov2024 22:18:10.381] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/msp2.5/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.0/fmlcore-1.20.1-47.3.0.jar is missing mods.toml file
+[20Nov2024 22:18:10.382] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/msp2.5/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.0/javafmllanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[20Nov2024 22:18:10.383] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/msp2.5/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.0/lowcodelanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[20Nov2024 22:18:10.385] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/msp2.5/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.0/mclanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[20Nov2024 22:18:10.526] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
+[20Nov2024 22:18:12.009] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[20Nov2024 22:18:12.031] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[20Nov2024 22:18:12.069] [main/WARN] [mixin/]: Reference map 'mixins.call_of_yucutan.refmap.json' for mixins.call_of_yucutan.json could not be read. If this is a development environment you can ignore this message
+[20Nov2024 22:18:12.099] [main/INFO] [Puzzles Lib/]: Loading 16 mods:
+	- call_of_yucutan 1.0.13
+	- catalogue 1.8.0
+	- curios 5.11.0+1.20.1
+	- enchantinginfuser 8.0.3
+	- farmersdelight 1.20.1-1.2.5
+	- forge 47.3.0
+	- forgeconfigscreens 8.0.2
+	- framework 0.7.12
+	- minecraft 1.20.1
+	- myserveriscompatible 1.0
+	- puzzleslib 8.1.25
+		\-- puzzlesaccessapi 8.0.7
+	- realmrpg_skeletons 1.0.3
+	- refurbished_furniture 1.0.8
+	- sophisticatedbackpacks 3.20.15.1143
+	- sophisticatedcore 0.7.6.779
+[20Nov2024 22:18:17.170] [main/WARN] [mixin/]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=2 on refurbished_furniture.common.mixins.json:LevelChunkMixin::handler$zzi000$refurbishedFurniture$AfterRemoveBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[20Nov2024 22:18:18.609] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzleslib:main
+[20Nov2024 22:18:18.779] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.0, for MC 1.20.1 with MCP 20230612.114412
+[20Nov2024 22:18:18.779] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.0 Initialized
+[20Nov2024 22:18:18.878] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for enchantinginfuser:main
+[20Nov2024 22:18:20.217] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forgeconfigscreens] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/forgeconfigscreens.json
+[20Nov2024 22:18:20.249] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key refurbished_furniture:lock_yaw for refurbished_furniture:seat
+[20Nov2024 22:18:20.623] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forgeconfigscreens] Found status: UP_TO_DATE Current: 8.0.2 Target: null
+[20Nov2024 22:18:20.623] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [catalogue] Starting version check at https://mrcrayfish.com/modupdatejson?id=catalogue
+[20Nov2024 22:18:21.466] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [catalogue] Found status: BETA Current: 1.8.0 Target: 1.8.0
+[20Nov2024 22:18:21.467] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [refurbished_furniture] Starting version check at https://mrcrayfish.com/api/mod_update/forge/refurbished_furniture
+[20Nov2024 22:18:21.772] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [refurbished_furniture] Found status: BETA Current: 1.0.8 Target: 1.0.8
+[20Nov2024 22:18:21.772] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzleslib.json
+[20Nov2024 22:18:21.787] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Found status: UP_TO_DATE Current: 8.1.25 Target: null
+[20Nov2024 22:18:21.787] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
+[20Nov2024 22:18:22.383] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Found status: BETA Current: 0.7.12 Target: 0.7.12
+[20Nov2024 22:18:22.383] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzlesaccessapi.json
+[20Nov2024 22:18:22.406] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Found status: BETA Current: 8.0.7 Target: null
+[20Nov2024 22:18:22.407] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[20Nov2024 22:18:22.455] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20Nov2024 22:18:22.628] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.3.0 Target: null
+[20Nov2024 22:18:22.628] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchantinginfuser] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/enchantinginfuser.json
+[20Nov2024 22:18:22.640] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchantinginfuser] Found status: UP_TO_DATE Current: 8.0.3 Target: null
+[20Nov2024 22:18:23.569] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/msp2.5/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23131!/assets/.mcassetsroot' uses unexpected schema
+[20Nov2024 22:18:23.570] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/msp2.5/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23131!/data/.mcassetsroot' uses unexpected schema
+[20Nov2024 22:18:25.554] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 19 recipes
+[20Nov2024 22:18:25.679] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2262 advancements
+[20Nov2024 22:18:25.692] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio slots
+[20Nov2024 22:18:25.696] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[20Nov2024 22:18:26.526] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[20Nov2024 22:18:26.527] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[20Nov2024 22:18:26.527] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[20Nov2024 22:18:26.527] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[20Nov2024 22:18:26.829] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[20Nov2024 22:18:26.853] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[20Nov2024 22:18:26.985] [Server thread/INFO] [Puzzles Lib/]: Loading server config for enchantinginfuser
+[20Nov2024 22:18:26.988] [Thread-1/INFO] [Puzzles Lib/]: Reloading server config for enchantinginfuser
+[20Nov2024 22:18:27.028] [Server thread/INFO] [Framework/]: Loading server configs...
+[20Nov2024 22:18:27.035] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[20Nov2024 22:18:30.263] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[20Nov2024 22:18:33.790] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Nov2024 22:18:33.791] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Nov2024 22:18:33.793] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Nov2024 22:18:33.794] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Nov2024 22:18:33.797] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Nov2024 22:18:33.798] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Nov2024 22:18:33.800] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Nov2024 22:18:33.800] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Nov2024 22:18:34.264] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 9%
+[20Nov2024 22:18:34.764] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 85%
+[20Nov2024 22:18:34.886] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 4623 ms
+[20Nov2024 22:18:34.887] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (7.920s)! For help, type "help"
+[20Nov2024 22:18:34.908] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[20Nov2024 22:18:56.112] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[20Nov2024 22:18:56.160] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[20Nov2024 22:18:56.161] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[20Nov2024 22:18:56.162] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[20Nov2024 22:18:57.026] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20Nov2024 22:18:57.666] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[20Nov2024 22:18:57.667] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[20Nov2024 22:18:57.713] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20Nov2024 22:18:57.714] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20Nov2024 22:18:57.714] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20Nov2024 22:18:57.714] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20Nov2024 22:18:57.728] [Server thread/INFO] [Framework/]: Unloading server configs...
+[20Nov2024 22:18:57.730] [Server thread/INFO] [Framework/]: Sending config unload event for refurbished_furniture.server.toml
+[20Nov2024 22:18:57.732] [Server thread/INFO] [Framework/]: Finished unloading server configs
